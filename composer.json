@@ -1,11 +1,5 @@
 {
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "pear.php.net"
-        }
-    ],
     "require": {
-        "pear-pear.php.net/config_lite": "*"
+        "swiftmailer/swiftmailer": "^6.0"
     }
 }
