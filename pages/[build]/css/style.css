@@ -1,0 +1,38 @@
+/* 
+	Site Wide CSS
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+
+.col-centered {float: none;margin: 0 auto;}
+
+.h1, h1, h1 a, 
+.h2,h2, h2 a, 
+.h3, h3, h3 a {margin:0;font-family:'Open Sans'}
+
+h1 {font-size: 45px;}
+
+.h1 span, h1 span, h1 a span, 
+.h2 span, h2 span, h2 a span, 
+.h3 span, h3 span, h3 a span {font-weight:800;}
+
+.btn span {margin-right: 5px;}
+
+body {font-family: 'Open Sans', Arial, sans-serif; font-size: 16px;}
+
+header {min-height:15vh;}
+header img.logo {width: 300px;max-width: 100%;}
+
+#content {min-height: 75vh;}
+
+footer {background: #222;min-height: 10vh;color: #fff;}
+footer a {display:block;color:#7dc2ff;}
+                                
+@media (max-width: 480px) {
+	.xs-center {text-align:center;}
+	.btn span.fa-floppy-o {margin:0 !important;}
+}
+
+
+
+

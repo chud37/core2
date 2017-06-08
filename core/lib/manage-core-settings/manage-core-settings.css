@@ -1,0 +1,65 @@
+
+	@import url(https://fonts.googleapis.com/css?family=Average);
+
+	#header, #footer {background: transparent !important;font-size: 1em !important;}
+	div.header {margin-top:20px;float: none;padding: 0;background: transparent;}
+	h1, h2 {font-family: 'Average';color: #111;}
+	h1:before, h1:after, h2:before, h2:after {content:"";border:none;}
+	h1 {font-size: 45px; font-weight:Bold;text-transform:none !important;}
+	h2 {font-size: 25px; color:#3B3B3B}
+	div.header h1, div.header h2 {text-align:center;text-transform:none !important;}
+	
+	div.header h1{color:#fff;}
+	div.header h2 {color:#0070FF;}
+	
+	.row.alert-message {margin-top: 10px;}
+	    
+	div.collapse,
+	div.collapsing {font-size: 12px;font-family: 'Verdana';color: #777;}
+	div.collapsing span.default-setting,
+	div.collapse span.default-setting {display:block;color:#555;}
+	button.toggle-info {border: 1px solid #ccc;background: none;border-radius: 4px;font-size: 13px;margin-left: 10px;}                        
+	
+	div.container.body {padding: 10px;border: 3px solid #703317;background:#fff;border-radius: 8px;margin-bottom: 20px;}
+	#menu b {margin: 0 auto 10px auto;color: #111;text-align: left;display: block;text-indent: 5px;}
+	       
+	                                                                       
+	#reset div.container-fluid {margin-bottom:20px;border-radius:4px;padding: 20px;}
+	#reset #reset-warning 	{background: #FFF4F4;}
+	#reset #backup-files 	{background: #F4FCFF;}              
+	
+	.btn span {margin-right: 10px;}
+	
+	div.body div.row {margin-bottom:10px;}
+	div.body div.bold {font-weight:bold;}
+	button.btn.plus-minus span {margin-right:0;}
+	
+	div.body.manage-core-settings div.row.version-history {margin-bottom:0px;}
+	
+	div.editable div.row-edit:first-child .btn.plus-minus,
+	div.editable div.row-edit:last-child .btn.plus-minus {display:inline-block;}
+	div.editable div.row-edit .btn.plus-minus:before {content: "\f068";}
+	div.editable div.row-edit:first-child .btn.plus-minus:before {content: "\f067";}    
+	    
+	div#php-info table {width:100%;}
+	div#php-info table td {padding: 5px;}
+	
+	div#core-histories div.container-fluid {margin-bottom: 20px; background: #fff;} 
+	
+	/* Log Files */
+	span.brackets {display:none;}
+	div.log-controls {font-family: 'Open Sans', 'Helvetica', 'Arial';font-size: 13px;margin-top:5px}
+	div.log-controls input {vertical-align:sub;}
+	div.log-controls a {display:inline-block;margin-right:5px;vertical-align: middle;}
+	div.log-controls a:last-child{font-size:17px;}
+	
+	
+	ul.fancyarray {margin:0;padding:0;background:#f5f5f5;padding:5px;border-radius: 4px;}
+	ul.fancyarray li {margin:0;padding:0;list-style:none;}
+	ul.fancyarray ul {margin-left:10px;padding:5px;border-radius: 4px;}
+	ul.fancyarray.parent > li b {min-width: 15%;margin-right:20px;display: inline-block;}
+	ul.fancyarray.child {margin-bottom: 10px;background: #EEE;}
+	ul.fancyarray.child li > ul.fancyarray.child {background:#e5e5e5}
+	ul.fancyarray li.no-data {line-height:10px;}
+	ul.fancyarray small {color: #D7D7D7;font-size: 10px;vertical-align:top;}
+	ul.fancyarray li.key > b {font-size: 17px;color: #1A659D;margin-top: 10px;}

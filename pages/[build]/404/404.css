@@ -1,0 +1,10 @@
+
+header.error404, footer.error404 {display:none; !important}
+
+body {height:100%; background:url('/[build]/404/img/background.jpg'); background-size: cover;}
+
+#content.error404 div.container div.row:first-child {margin-top: 20vh;}
+
+div.img-whitebox 		{padding-left: 10%;padding-right: 10%;padding-top: 5%; padding-bottom: 5%; background:#fff; display:inline-block; box-shadow: 0px 0px 35px -10px #3A3A3A;} 
+div.img-whitebox img 	{max-width: 350px;}
+div.small-print 		{font-size:.7em;color:#aaa;}

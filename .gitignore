@@ -1,0 +1,14 @@
+# PHP error files & jEdit saves
+error_log
+*~
+
+# Composer files
+vendor/
+
+# Node
+node_modules/
+npm-debug.log
+
+# Log files
+pages/[build]/logs/
+*.log

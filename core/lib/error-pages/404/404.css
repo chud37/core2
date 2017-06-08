@@ -1,0 +1,9 @@
+header.error404, footer.error404 {display:none; !important}
+body {height:100%;background: url('/lib/images/backgrounds/404-error.jpg');background-size: cover;}
+#content.error404 div.container div.row:first-child {margin-top: 30vh;}   
+
+div.info-box {position:relative;background: #fff;display: block;box-shadow: 0px 0px 35px -10px #3A3A3A;    padding: 10px;} 
+div.info-box img {max-width: 350px;}       
+div.info-box h1{width: 100%;text-align: center;left: 0;color: #333;}
+div.info-box p {width: 70%;text-align: center;margin: 20px auto;}
+div.small-print {font-size:.7em;color:#aaa;}

@@ -1,0 +1,8 @@
+header.error401, footer.error401 {display:none; !important}
+body {height:100%;background: url('/lib/images/backgrounds/404-error.jpg');background-size: cover;}
+#content.error401 div.container div.row:first-child {margin-top: 30vh;}
+div.img-whitebox {position:relative;background: #fff;display: inline-block;box-shadow: 0px 0px 35px -10px #3A3A3A;padding: 10%;} 
+div.img-whitebox img {max-width: 350px;}
+div.img-whitebox h1{position: absolute;top: 10px;width: 100%;text-align: center;left: 0;color: #333;}
+div.img-whitebox p{width: 30vw;}
+div.small-print {font-size:.7em;color:#aaa;}
